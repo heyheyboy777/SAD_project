@@ -119,7 +119,7 @@ const InventoryPrediction: React.FC = () => {
            <Info className="w-10 h-10 shrink-0 text-blue-500" />
            <div>
                <span className="font-bold block mb-1">計算公式:</span>
-               總量 = 目前訂單 + (週期客戶預測)×0.8 + (散客 × 節慶係數 (元旦){PREDICTION_CONSTANTS.HOLIDAY_MULTIPLIER})
+               總量 = 目前訂單 + (週期客戶預測)×0.8 + (散客 × 節慶係數 :元旦{PREDICTION_CONSTANTS.HOLIDAY_MULTIPLIER})
            </div>
        </div>
 
